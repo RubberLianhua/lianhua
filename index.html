@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="zh-hant-tw">
+
+<head>
+  <title>首頁</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="fontawesomefree/css/all.min.css">
+  <link rel="stylesheet" href="css/mystyle.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .ie-panel {
+      display: none;
+      background: #212121;
+      padding: 10px 0;
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+      clear: both;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    html.ie-10 .ie-panel,
+    html.lt-ie-10 .ie-panel {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="preloader">
+    <div class="preloader-body">
+      <div class="cssload-container">
+        <div class="cssload-speeding-wheel"></div>
+      </div>
+      <p>加載中...</p>
+    </div>
+  </div>
+  <div class="page">
+    <header class="section page-header">
+      <!--RD Navbar-->
+      <div class="rd-navbar-wrap">
+        <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+          data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
+          data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static"
+          data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-of fset="46px"
+          data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+          <div class="rd-navbar-aside-outer rd-navbar-collapse bg-gray">
+          </div>
+          <div class="rd-navbar-main-outer">
+            <div class="rd-navbar-main">
+              <!--RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!--RD Navbar Toggle-->
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!--RD Navbar Brand-->
+                <div class="rd-navbar-brand">
+                  <!--Brand--><a class="brand" href="index.html"></a>
+
+                </div>
+              </div>
+              <div class="rd-navbar-main-element">
+                <div class="rd-navbar-nav-wrap">
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">首頁</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="products.html">產品</a>
+                    </li>
+                    <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="{% url 'analyze' %}">行銷策略</a>
+                    </li> -->
+                    <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="{% url 'store' %}"><i
+                          class="fa-solid fa-cart-shopping"></i></a>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--Main section-->
+
+    <section class="section main-section parallax-scene-js"
+      style="background:url(images/bg-image2.jpg) no-repeat center center; background-size:cover;">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 col-12">
+            <div class="main-decorated-box text-center text-xl-left">
+              <h1 class="text-black text-xl-center wow slideInRight" data-wow-delay=".3s"><span
+                  class="align-top offset-top-30 d-inline-block font-weight-light  prefix-text index-banner">中埔</span><span
+                  class="big font-weight-bold d-inline-flex offset-right-170 index-banner">聯樺</span><span
+                  class="biggest d-block d-xl-flex font-weight-bold index-banner new-flex">橡膠</span></h1>
+              <div class="decorated-subtitle text-italic wow slideInLeft">提供最舒適的鞋墊，享受每個人的生活</div>
+            </div>
+          </div>
+          <div class="col-12 text-center offset-top-75" data-wow-delay=".2s"><a
+              class="button-way-point d-inline-block text-center d-inline-flex flex-column justify-content-center"
+              href="#" data-custom-scroll-to="about"><span class="fa-solid fa-arrow-down"></span></a></div>
+        </div>
+      </div>
+      <div class="decorate-layer">
+        <div class="layer-1">
+          <div class="layer" data-depth=".20"><img src="images/parallax-item-1-563x532.png" alt=""
+              width="563" height="266" />
+          </div>
+        </div>
+        <div class="layer-2">
+          <div class="layer" data-depth=".30"><img src="images/parallax-item-2-276x343.png" alt=""
+              width="276" height="171" />
+          </div>
+        </div>
+        <div class="layer-3">
+          <div class="layer" data-depth=".40"><img src="images/parallax-item-3-153x144.png" alt=""
+              width="153" height="72" />
+          </div>
+        </div>
+        <div class="layer-4">
+          <div class="layer" data-depth=".20"><img src="images/parallax-item-4-69x74.png" alt=""
+              width="69" height="37" />
+          </div>
+        </div>
+        <div class="layer-5">
+          <div class="layer" data-depth=".40"><img src="images/parallax-item-5-72x75.png" alt=""
+              width="72" height="37" />
+          </div>
+        </div>
+        <div class="layer-6">
+          <div class="layer" data-depth=".30"><img src="images/parallax-item-6-45x54.png" alt=""
+              width="45" height="27" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--About-->
+    <section class="section section-sm position-relative" id="about">
+      <div class="container">
+        <div class="row row-30">
+          <div class="col-lg-6">
+            <div class="block-decorate-img wow fadeInLeft" data-wow-delay=".2s"><img
+                src="images/index-img.png" alt="" width="570" height="450" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="block-sm offset-top-45">
+              <div class="section-name wow fadeInRight about-text" data-wow-delay=".2s">關於鞋墊</div>
+              <h3 class="wow fadeInLeft text-capitalize devider-bottom" data-wow-delay=".3s">我們做<span
+                  class="text-primary"> 什麼?</span></h3>
+              <p class="offset-xl-40 wow fadeInUp index-about" data-wow-delay=".4s">
+                關於<span class="index-aboutf">聯樺橡膠有限公司</span>這間工廠的鞋墊.
+              </p>
+              <p class="default-letter-spacing font-weight-bold text-gray-dark wow fadeInUp" data-wow-delay=".4s">
+                有鞋墊製作的原因是因為當時客戶有找聯樺橡膠公司合作開發，客戶有先找許多間廠商開發，都沒有開發成功，而找到了聯樺公司，開發了兩年之久才開發成功，開始生產鞋墊產品，鞋墊一開始是製檜木鞋墊，檜木鞋墊有抑制鞋墊孳生，有除臭的功能，接著之後又有茶葉鞋墊的誕生.
+              </p><a class="button-width-190 button-primary button-circle button-lg button offset-top-30"
+                href="products.html">了解詳情</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--<div class="decor-text decor-text-1 wow fadeInUp" data-wow-delay= ".5s">關於</div>-->
+    </section>
+    <!--Features-->
+    <!-- <div class="decor-text decor-text-2 wow fadeInUp" data-wow-delay=".5s">特色</div> -->
+    </section>
+
+    <section class="section section-lg bg-default">
+      <div class="container">
+        <div class="video-div">
+          <div class="video-home">
+            <iframe width="1272" height="650" src="https://www.youtube.com/embed/SD-UEa5NeZ4"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <h3>以上影片是老闆細心為我們介紹他的畢生心血,「聯樺橡膠工廠」.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="row">
+      <section class="section section-lg bg-default">
+        <div class="container">
+          <h3>工廠使用的機器</h3>
+          <div class="col-lg-9 col-xl-12 justify-content-center">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                  aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/machine-1.jpg" class="d-block w-100 h-20" alt="...">
+
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>橡膠鞋底成形油壓機</h5>
+                    <p>利用原料有高壓、擠壓的作用，使貼膠時可省下成本和時間.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/machine-2.jpg" class="d-block w-100 h-20" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>密閉式原料混合機</h5>
+                    <p>原料秤重完後放進機器進行攪拌，速度快.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/machine-3.jpg" class="d-block w-100 h-20" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>輸送機</h5>
+                    <p>混合好的原料倒至輸送機運至開放式原料混合機.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/machine-4.jpg" class="d-block w-100 h-20" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>開放式原料混合機</h5>
+                    <p>和密閉式原料混合機一樣將原料放置機器再次攪拌，和密閉式原料混合機的差別是由於是開放式的可以看到原料混合的情況，缺點是速度慢.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+
+  <section class="section section-lg bg-default ml-3">
+    <div class="container">
+      <div class="video-div">
+        <div class="video-description">
+          <h3>使用材料</h3>
+          <p>以下是我們會用到的材料.</p>
+          <ol class="list-ordered">
+            <li><span class="tooltip-custom" data-toggle="tooltip" data-placement="top"
+                title="由泰國、印度、馬來西亞、大陸進口.">橡膠</span>
+              </p>
+            </li>
+            </p>
+            <li><span class="tooltip-custom" data-toggle="tooltip" data-placement="top"
+                title="用來添加於塑料、橡膠、彈性體中使其產生氣泡，達到具有耐熱性、隔音性、耐冲擊性、柔軟性、装飾性等性能的發泡劑.">黃色炸藥</span></li>
+            <li><span class="tooltip-custom" data-toggle="tooltip" data-placement="top"
+                title="以各類橡膠原料為基礎，經由特殊配方設計，並以碳黑為補強劑作混練，提升產品強度及耐磨、抗裂等特性，成品外觀呈現黑色.">黑煙膠</span></li>
+            <li><span class="tooltip-custom" data-toggle="tooltip" data-placement="top"
+                title="做填充劑，它可以提高塑膠的強度和耐熱性能，並降低成本.">石粉</span></li>
+            <li><span class="tooltip-custom" data-toggle="tooltip" data-placement="top"
+                title="由本工廠向客戶回收所剩的橡膠在經由加工變成可重複.">再生原料</span></li>
+          </ol>
+          <p>將鼠標移到文字上方或點擊文字來查看詳細資料.</p>
+        </div>
+
+        <!-- <img src={% static 'images/index-img2.png' %} -->
+
+        <div class="video-home">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6NanrgFMCWw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="section section-lg bg-default">
+    <div class="container">
+      <h3>保證項目</h3>
+      <div class="row row-30">
+        <div class="cell-xs-10 col-md-6 col-lg-4">
+          <article class="box-minimal">
+            <div class="box-minimal-icon fa fa-archive"></div>
+            <h4 class="box-minimal-title">第一點</h4>
+            <div class="box-minimal-text">
+              <p>都是經由國外進口.</p>
+            </div>
+          </article>
+        </div>
+        <div class="cell-xs-10 col-md-6 col-lg-4">
+          <article class="box-minimal">
+            <div class="box-minimal-icon fa fa-check"></div>
+            <h4 class="box-minimal-title">第二點</h4>
+            <div class="box-minimal-text">
+              <p>茶葉鞋墊100%透水.</p>
+            </div>
+          </article>
+        </div>
+        <div class="cell-xs-10 col-md-6 col-lg-4">
+          <article class="box-minimal">
+            <div class="box-minimal-icon fa fa-recycle"></div>
+            <h4 class="box-minimal-title">第三點</h4>
+            <div class="box-minimal-text">
+              <p>環保利用 重複利用剩餘材料.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Counters
+    <section class="section bg-image-2">
+      <div class="container section-md">
+        <div class="row row-30 text-center">
+          <div class="col-xl-3 col-sm-6 col-12">
+            <div class="counter-classic">
+              <div class="counter-classic-number"><span
+                  class="icon-lg novi-icon offset-right-10 mercury-icon-tools"></span><span class="counter text-white"
+                  data-speed="2000">9999</span>
+              </div>
+              <div class="counter-classic-title">文字01</div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-sm-6 col-12">
+            <div class="counter-classic">
+              <div class="counter-classic-number"><span
+                  class="icon-lg novi-icon offset-right-10 mercury-icon-tools"></span><span class="counter text-white"
+                  data-speed="2000">999</span>
+              </div>
+              <div class="counter-classic-title">文字02</div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-sm-6 col-12">
+            <div class="counter-classic">
+              <div class="counter-classic-number"><span
+                  class="icon-lg novi-icon offset-right-10 mercury-icon-tools"></span><span class="counter text-white"
+                  data-speed="2000">99</span><span class="symbol text-white">+</span>
+              </div>
+              <div class="counter-classic-title">文字03</div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-sm-6 col-12">
+            <div class="counter-classic">
+              <div class="counter-classic-number"><span
+                  class="icon-lg novi-icon offset-right-10 mercury-icon-tools"></span><span class="counter text-white"
+                  data-speed="2000">9999</span>
+              </div>
+              <div class="counter-classic-title">文字04</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+  <!--Pricing
+    <section class="section section-md bg-xs-overlay"
+      style="background:url('{% url 'products' %}/daniel-{% url 'store' %}k-JM-qKEd1GMI-unsplash.jpg')no-repeat;background-size:cover">
+      <div class="container">
+        <div class="row row-50 justify-content-center">
+          <div class="col-12 text-center col-md-10 col-lg-8">
+            <div class="section-name wow fadeInRight" data-wow-delay=".2s">項目表</div>
+            <h3 class="wow fadeInLeft text-capitalize" data-wow-delay=".3s">選擇一個<span class="text-primary">項目</span>
+            </h3>
+            <p>我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字.</p>
+          </div>
+        </div>
+        <div class="row row-30 justify-content-center">
+          <div class="col-xl-4 col-md-6 col-12 wow fadeInDown" data-wow-delay=".3s">
+            <div class="pricing-box bg-gray-dark">
+              <div class="pricing-box-tittle">文字001</div>
+              <p>第一個項目</p>
+              <hr />
+              <div class="pricing-box-label bg-gray">文字001</div>
+              <p>我是文字我是文字 <br> 我是文字我是文字</p><a class="button button-190 button-circle btn-primary-rounded"
+                href="#">前往</a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
+            <div class="pricing-box bg-gray-primary">
+              <div class="pricing-box-tittle">文字002</div>
+              <p>第二個項目</p>
+              <hr />
+              <div class="pricing-box-label bg-gray-primary-light">文字002</div>
+              <p>我是文字我是文字 <br> 我是文字我是文字</p><a class="button button-190 button-circle btn-rounded-outline"
+                href="#">前往</a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-12 wow fadeInDown" data-wow-delay=".3s">
+            <div class="pricing-box bg-gray-dark">
+              <div class="pricing-box-tittle">文字003</div>
+              <p>第三個項目</p>
+              <hr />
+              <div class="pricing-box-label bg-gray">文字003</div>
+              <p>我是文字我是文字 <br> 我是文字我是文字</p><a class="button button-190 button-circle btn-primary-rounded"
+                href="#">前往</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+  <!--Owl Carousel
+    <section class="section section-md bg-gray-lighten">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <div class="section-name wow fadeInRight text-center" data-wow-delay=".2s">未來的方向</div>
+            <h3 class="wow fadeInLeft text-capitalize text-center" data-wow-delay=".3s">我們心目中的<span
+                class="text-primary">方向</span></h3>
+            <div class="owl-carousel review-carousel" data-items="1" data-sm-items="1" data-md-items="1"
+              data-lg-items="1" data-xl-items="1" data-xxl-items="1" data-dots="true" data-nav="false"
+              data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="true" data-autoplay="false">
+              <div class="item">
+                <div class="item-preview wow fadeInDown" data-wow-delay=".2s"><img src="images/user-1-216x216.jpg"
+                    alt="" width="216" height="108" />
+                </div>
+                <div class="item-description wow fadeInUp" data-wow-delay=".3s">
+                  <p>
+                    我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字
+                    我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字.
+                  </p>
+                  <div class="item-subsection"><span class="item-subsection-title devider-left"></span><span>我是文字我是文字</span></div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-preview wow fadeInDown" data-wow-delay=".2s"><img src="images/user-2-216x216.jpg"
+                    alt="" width="216" height="108" />
+                </div>
+                <div class="item-description wow fadeInUp" data-wow-delay=".3s">
+                  <p>
+                    我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字
+                    我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字.
+                  </p>
+                  <div class="item-subsection"><span class="item-subsection-title devider-left"></span><span>我是文字我是文字</span></div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-preview wow fadeInDown" data-wow-delay=".2s"><img src="images/user-3-216x216.jpg"
+                    alt="" width="216" height="108" />
+                </div>
+                <div class="item-description wow fadeInUp" data-wow-delay=".3s">
+                  <p>
+                    我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字
+                    我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字.
+                  </p>
+                  <div class="item-subsection"><span class="item-subsection-title devider-left"></span><span>我是文字我是文字</span></div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-preview wow fadeInDown" data-wow-delay=".2s"><img src="images/user-4-216x216.jpg"
+                    alt="" width="216" height="108" />
+                </div>
+                <div class="item-description wow fadeInUp" data-wow-delay=".3s">
+                  <p>
+                    我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字
+                    我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字.
+                  </p>
+                  <div class="item-subsection"><span class="item-subsection-title devider-left"></span><span>我是文字我是文字</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+  <!--Footer-->
+  <footer class="section footer-classic section-sm">
+    <div class="container">
+      <div class="row row-30">
+        <!--<div class="col-lg-3 wow fadeInLeft">
+            <a class="brand" href="{% url 'index' %}"><img class="brand-logo-dark"
+                src="images/logo-default-200x34.png" alt="" width="100" height="17" /><img class="brand-logo-light"
+                src="images/logo-inverse-200x34.png" alt="" width="100" height="17" /></a>
+            <p class="footer-classic-description offset-top-0 offset-right-25">СonsultBiz provides a full range of
+              business consulting & advisory services to small, medium, and international companies worldwide. We use
+              innovations and experience to drive your success.</p>
+          </div>
+          <div class="col-lg-3 col-sm-8 wow fadeInUp">
+            <P class="footer-classic-title">contact info</P>
+            <div class="d-block offset-top-0">2164 Wall St, New York<span class="d-lg-block">NY 10122, USA</span></div>
+            <a class="d-inline-block accent-link" href="mailto:#">info@demolink.org</a><a class="d-inline-block"
+              href="tel:#">+1 800 123 45 67</a>
+            <ul>
+              <li>Mon-Thu:<span class="d-inline-block offset-left-10 text-white">9:30 AM - 9:00 PM</span></li>
+              <li>Fri:<span class="d-inline-block offset-left-10 text-white">10:00 AM - 9:00 PM</span></li>
+              <li>Sat:<span class="d-inline-block offset-left-10 text-white">10:00 AM - 3:00 PM</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 wow fadeInUp" data-wow-delay=".3s">
+            <P class="footer-classic-title">Quick Links</P>
+            <ul class="footer-classic-nav-list">
+              <li><a href="{% url 'index' %}">Home</a></li>
+              <li><a href="{% url 'products' %}.html">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="cart.html">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".2s">
+            <P class="footer-classic-title">newsletter</P>
+            <form class="rd-mailform text-left footer-classic-subscribe-form" data-form-output="form-output-global"
+              data-form-type="contact" method="post" action="bat/rd-mailform.php">
+              <div class="form-wrap">
+                <label class="form-label" for="subscribe-email">Your Email Address</label>
+                <input class="form-input" id="subscribe-email" type="email" name="email"
+                  data-constraints="@Email @Required">
+              </div>
+              <div class="form-button group-sm text-center text-lg-left">
+                <button class="button button-primary button-circle" type="submit">sign up</button>
+              </div>
+            </form>
+            <p>Be the first to find out about our latest news, updates, and special offers.</p>
+          </div>-->
+      </div>
+    </div>
+    <div class="container wow fadeInUp" data-wow-delay=".4s">
+      <div class="footer-classic-aside">
+        <p class="rights"><img class="brand-logo-dark" src="images/brand-logo.jpg" alt="" width="220"
+            height="100" /><span>&copy;&nbsp;</span><span class="copyright-year"></span> 聯樺橡膠股份有限公司 </p>
+            <p>606嘉義縣中埔鄉頂中下街73號
+      </div>
+    </div>
+  </footer>
+  </div>
+  <div class="snackbars" id="form-output-global"></div>
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

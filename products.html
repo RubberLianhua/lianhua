@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="zh-hant-tw">
+
+<head>
+  <title>產品</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link href="css/glightbox.min.css" rel="stylesheet">
+  <link href="css/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="fontawesomefree/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mystyle.css">
+  <style>
+    .ie-panel {
+      display: none;
+      background: #212121;
+      padding: 10px 0;
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+      clear: both;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    html.ie-10 .ie-panel,
+    html.lt-ie-10 .ie-panel {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="preloader">
+    <div class="preloader-body">
+      <div class="cssload-container">
+        <div class="cssload-speeding-wheel"></div>
+      </div>
+      <p>加載中...</p>
+    </div>
+  </div>
+  <div class="page">
+    <header class="section page-header">
+      <!--RD Navbar-->
+      <div class="rd-navbar-wrap">
+        <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+          data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
+          data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static"
+          data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px"
+          data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+          <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse">
+            <span></span>
+          </div>
+          <div class="rd-navbar-aside-outer rd-navbar-collapse bg-gray-dark">
+
+          </div>
+          <div class="rd-navbar-main-outer">
+            <div class="rd-navbar-main">
+              <!--RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!--RD Navbar Toggle-->
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!--RD Navbar Brand-->
+                <div class="rd-navbar-brand">
+                  <!--Brand--><a class="brand" href="index.html"></a>
+                </div>
+              </div>
+              <div class="rd-navbar-main-element">
+                <div class="rd-navbar-nav-wrap">
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">首頁</a>
+                    </li>
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="products.html">產品</a>
+                    </li>
+                    <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="{% url 'analyze' %}">行銷策略</a>
+                    </li> -->
+                    <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="{% url 'store' %}"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="section section-intro context-dark">
+      <div class="intro-bg"
+        style="background: url(images/bg-p.jpg) no-repeat;background-size:cover;background-position: top center;">
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 text-center">
+            <h1 class="font-weight-bold wow fadeInLeft product-banner">關於產品</h1>
+            <p class="intro-description wow fadeInRight product-bannerdown">以下為產品的介紹以及實際圖片.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About page about section-->
+    <section class="section section-md">
+      <div class="container mb-5">
+        <div class="row row-40 justify-content-center">
+          <div class="col-lg-6 col-12">
+            <div class="offset-top-45 offset-lg-right-45">
+              <div class="section-name wow fadeInRight" data-wow-delay=".2s">關於我們</div>
+              <h3 class="wow fadeInLeft text-capitalize" data-wow-delay=".3s">生產的產品<span class="text-primary"> 內容</span>
+              </h3>
+              <p class="font-weight-bold text-gray-dark wow fadeInUp product-info" data-wow-delay=".4s">
+                茶葉鞋墊：此項產品的特色在於茶葉鞋墊裏頭添加了茶葉有別於一般的鞋墊,茶葉使鞋墊本身就帶有香氣,也增加了透氣性與抑制黴菌生長的功效,讓原本腳容易出汗的你,可以保持腳一整天的乾爽；患有香港腳的也能使用這項產品,不用怕鞋墊可能會發霉,茶葉有抑制額茶樹的功效抑制臭味,使用久了可以透過清水沖洗,晾乾後還可以繼續使用.
+              </p>
+              <p class="wow fadeInUp product-info" data-wow-delay=".4s">
+                檜木鞋墊：檜木鞋墊的特色在於裡面添加了台灣檜木的原料,這使成本會比一般鞋墊的單價還來的高,因鞋墊裡有加入檜木,讓透氣性除臭能力大幅增加,也能抑制病菌孳生喜愛的產品之一.</p>
+              <p class="wow fadeInUp product-info" data-wow-delay=".4s">橡膠鞋墊：橡膠鞋墊與其他鞋墊相比,橡膠鞋墊的防滑程度一定是數一數二的,加上它耐磨、耐酸鹼,由於柔韌性好不容易變形、斷裂,也因為硬度高對我們的腳有很好的支撐,前面提到由於橡膠鞋墊有很好的防滑和耐磨兩種特性,所以經常作用在登山鞋、路跑鞋、籃球鞋等等需要較耐久的鞋類.
+              </p>
+              <div class="offset-top-20">
+                <!--Linear progress bar-->
+                <article class="progress-linear">
+                  <div class="progress-header progress-header-simple">
+                    <p>茶葉鞋墊</p><span class="progress-value">50</span>
+                  </div>
+                  <div class="progress-bar-linear-wrap">
+                    <div class="progress-bar-linear"></div>
+                  </div>
+                </article>
+                <!--Linear progress bar-->
+                <article class="progress-linear">
+                  <div class="progress-header progress-header-simple">
+                    <p>檜木鞋墊</p><span class="progress-value">25</span>
+                  </div>
+                  <div class="progress-bar-linear-wrap">
+                    <div class="progress-bar-linear"></div>
+                  </div>
+                </article>
+                <!--Linear progress bar-->
+                <article class="progress-linear">
+                  <div class="progress-header progress-header-simple">
+                    <p>橡膠鞋墊</p><span class="progress-value">25</span>
+                  </div>
+                  <div class="progress-bar-linear-wrap">
+                    <div class="progress-bar-linear"></div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-10 col-12">
+            <div class="block-decorate-img wow fadeInLeft" data-wow-delay=".2s"><img class="product-about"
+                src="images/product-img.png" alt="" width="570" height="250" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="section-title">產品</h3>
+            <div class="section-title-divider"></div>
+            <p class="section-description">您可以在這裡看到我們的產品 (更多產品會在未來提供.)</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">全部</li>
+              <li data-filter=".filter-1">鞋墊</li>
+              <li data-filter=".filter-2">鞋底</li>
+              <li data-filter=".filter-3">夾腳拖</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-1">
+            <img src="products/product-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>茶葉鞋墊</h4>
+              <p>鞋墊</p>
+              <a href="" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+                title="App 1"><i class="bi bi-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-1">
+            <img src="products/product-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>檜木鞋墊</h4>
+              <p>鞋墊</p>
+              <a href="" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i
+                  class="bi bi-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-2">
+            <img src="products/sole1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>黃金大底</h4>
+              <p>鞋底</p>
+              <a href="..." data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i
+                  class="bi bi-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-2">
+            <img src="products/sole2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>十字登山鞋底</h4>
+              <p>鞋底</p>
+              <a href="..." data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i
+                  class="bi bi-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-2">
+            <img src="products/sole3.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>黃金大底女段</h4>
+              <p>鞋底</p>
+              <a href="..." data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i
+                  class="bi bi-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-2">
+            <img src="products/sole4.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>紳士休閒鞋底</h4>
+              <p>鞋底</p>
+              <a href="..." data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i
+                  class="bi bi-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-3">
+            <img src="products/slipper1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>夾腳拖1</h4>
+              <p>夾腳拖</p>
+              <a href="..." data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i
+                  class="bi bi-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-3">
+            <img src="products/slipper2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>夾腳拖2</h4>
+              <p>夾腳拖</p>
+              <a href="..." data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i
+                  class="bi bi-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-3">
+            <img src="products/slipper3.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>夾腳拖3</h4>
+              <p>夾腳拖</p>
+              <a href="..." data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i
+                  class="bi bi-plus"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- Our team
+    <section class="section section-md">
+      <div class="container">
+        <div class="row row-50 justify-content-center">
+          <div class="col-md col-12 text-center">
+            <div class="section-name wow fadeInRight" data-wow-delay=".2s">我們的團隊</div>
+            <h3 class="wow fadeInLeft text-capitalize" data-wow-delay=".3s">以下為我們的<span class="text-primary">
+                成員</span></h3>
+            <p class="block-675">我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字
+              我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字.</p>
+          </div>
+        </div>
+        <div class="row row-50 justify-content-center">
+          <div class="col-xl-4 col-sm-6 col-10 wow fadeInLeft" data-wow-delay=".3s">
+            <div class="team-classic-wrap">
+              <div class="team-classic-img"><img src="images/team-classic-1-370x397.jpg" alt="" width="370"
+                  height="198" />
+              </div>
+              <div class="block-320 text-center">
+                <h4 class="font-weight-bold">成員1</h4><span class="d-block">職位介紹</span>
+                <p>我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字
+                  我是文字我是文字我是文字我是文字我是文字.</p>
+                <hr class="offset-top-40" />
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-6 col-10 wow fadeInUp" data-wow-delay=".3s">
+            <div class="team-classic-wrap">
+              <div class="team-classic-img"><img src="images/team-classic-2-370x397.jpg" alt="" width="370"
+                  height="198" />
+              </div>
+              <div class="block-320 text-center">
+                <h4 class="font-weight-bold">成員2</h4><span class="d-block">職位介紹</span>
+                <p>我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字
+                  我是文字我是文字我是文字我是文字我是文字.</p>
+                <hr class="offset-top-40" />
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-6 col-10 wow fadeInRight" data-wow-delay=".3s">
+            <div class="team-classic-wrap">
+              <div class="team-classic-img"><img src="images/team-classic-3-370x397.jpg" alt="" width="370"
+                  height="198" />
+              </div>
+              <div class="block-320 text-center">
+                <h4 class="font-weight-bold">成員3</h4><span class="d-block">職位介紹</span>
+                <p>我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字
+                  我是文字我是文字我是文字我是文字我是文字.</p>
+                <hr class="offset-top-40" />
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-6 col-10 wow fadeInRight" data-wow-delay=".3s">
+            <div class="team-classic-wrap">
+              <div class="team-classic-img"><img src="images/team-classic-3-370x397.jpg" alt="" width="370"
+                  height="198" />
+              </div>
+              <div class="block-320 text-center">
+                <h4 class="font-weight-bold">成員4</h4><span class="d-block">職位介紹</span>
+                <p>我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字
+                  我是文字我是文字我是文字我是文字我是文字.</p>
+                <hr class="offset-top-40" />
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-6 col-10 wow fadeInRight" data-wow-delay=".3s">
+            <div class="team-classic-wrap">
+              <div class="team-classic-img"><img src="images/team-classic-3-370x397.jpg" alt="" width="370"
+                  height="198" />
+              </div>
+              <div class="block-320 text-center">
+                <h4 class="font-weight-bold">成員5</h4><span class="d-block">職位介紹</span>
+                <p>我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字
+                  我是文字我是文字我是文字我是文字我是文字.</p>
+                <hr class="offset-top-40" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    <!--Brands
+    <section class="section section-md bg-gray-lighten">
+      <div class="container">
+        <div class="row">
+
+          <div class="owl-carousel text-center owl-brand" data-items="1" data-sm-items="2" data-md-items="3"
+            data-lg-items="3" data-xl-items="5" data-xxl-items="5" data-dots="true" data-nav="false"
+            data-stage-padding="15" data-loop="false" data-margin="30" data-mouse-drag="false" data-autoplay="true">
+            <div class="item"><img src="images/brand-1-200x48.png" alt="" width="200" height="24" />
+            </div>
+            <div class="item"><img src="images/brand-2-200x48.png" alt="" width="200" height="24" />
+            </div>
+            <div class="item"><img src="images/brand-3-200x48.png" alt="" width="200" height="24" />
+            </div>
+            <div class="item"><img src="images/brand-4-200x48.png" alt="" width="200" height="24" />
+            </div>
+            <div class="item"><img src="images/brand-5-200x48.png" alt="" width="200" height="24" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    <!--Footer-->
+    <footer class="section footer-classic section-sm">
+      <div class="container">
+        <div class="row row-30">
+          <!--<div class="col-lg-3 wow fadeInLeft">
+            <a class="brand" href="{% url 'index' %}"><img class="brand-logo-dark"
+                src="images/logo-default-200x34.png" alt="" width="100" height="17" /><img class="brand-logo-light"
+                src="images/logo-inverse-200x34.png" alt="" width="100" height="17" /></a>
+            <p class="footer-classic-description offset-top-0 offset-right-25">СonsultBiz provides a full range of
+              business consulting & advisory services to small, medium, and international companies worldwide. We use
+              innovations and experience to drive your success.</p>
+          </div>
+          <div class="col-lg-3 col-sm-8 wow fadeInUp">
+            <P class="footer-classic-title">contact info</P>
+            <div class="d-block offset-top-0">2164 Wall St, New York<span class="d-lg-block">NY 10122, USA</span></div>
+            <a class="d-inline-block accent-link" href="mailto:#">info@demolink.org</a><a class="d-inline-block"
+              href="tel:#">+1 800 123 45 67</a>
+            <ul>
+              <li>Mon-Thu:<span class="d-inline-block offset-left-10 text-white">9:30 AM - 9:00 PM</span></li>
+              <li>Fri:<span class="d-inline-block offset-left-10 text-white">10:00 AM - 9:00 PM</span></li>
+              <li>Sat:<span class="d-inline-block offset-left-10 text-white">10:00 AM - 3:00 PM</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 wow fadeInUp" data-wow-delay=".3s">
+            <P class="footer-classic-title">Quick Links</P>
+            <ul class="footer-classic-nav-list">
+              <li><a href="{% url 'index' %}">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="cart.html">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".2s">
+            <P class="footer-classic-title">newsletter</P>
+            <form class="rd-mailform text-left footer-classic-subscribe-form" data-form-output="form-output-global"
+              data-form-type="contact" method="post" action="bat/rd-mailform.php">
+              <div class="form-wrap">
+                <label class="form-label" for="subscribe-email">Your Email Address</label>
+                <input class="form-input" id="subscribe-email" type="email" name="email"
+                  data-constraints="@Email @Required">
+              </div>
+              <div class="form-button group-sm text-center text-lg-left">
+                <button class="button button-primary button-circle" type="submit">sign up</button>
+              </div>
+            </form>
+            <p>Be the first to find out about our latest news, updates, and special offers.</p>
+          </div>-->
+        </div>
+      </div>
+      <div class="container wow fadeInUp" data-wow-delay=".4s">
+        <div class="footer-classic-aside">
+          <p class="rights"><img class="brand-logo-dark"
+            src="images/brand-logo.jpg" alt="" width="220" height="100" /><span>&copy;&nbsp;</span><span class="copyright-year"></span> 聯樺橡膠股份有限公司 </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="snackbars" id="form-output-global"></div>
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/glightbox.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/myscript.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/typed.min.js"></script>
+
+</body>
+
+</html>
