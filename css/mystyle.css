@@ -290,3 +290,7 @@
   padding-right: 50px;
   flex-direction: row-reverse;
 }
+
+.video-description{
+  font-size: 24px;
+}
