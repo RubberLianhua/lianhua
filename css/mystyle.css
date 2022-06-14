@@ -294,3 +294,7 @@
 .video-description{
   font-size: 24px;
 }
+
+.carousel-indicators [data-bs-target]{
+  color: red;
+}
